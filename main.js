@@ -100,7 +100,7 @@ async function handleSearch() {
             showFileValues.innerHTML = `<p>Error fetching data: ${error.message}</p>`;
         }
     } else {
-        showFileValues.innerHTML = "Please select a file and enter a keyword to search.";
+        showFileValues.innerHTML = "Please enter a keyword to search.";
     }
 }
 
